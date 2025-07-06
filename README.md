@@ -20,6 +20,8 @@ The core hypothesis is to test whether historical price action sequences can pro
 1.  **Primary Forecast:** A configurable Markov Chain model generates the initial directional forecast based on historical transition probabilities.
 2.  **Confidence Validation:** A Random Forest classifier, trained on the historical performance of the primary model, acts as a "validator" to score the confidence of each new forecast, providing a deeper layer of analysis.
 
+**Note:** This project is presented as a completed, "frozen" piece of work. The data is not updated, and the goal for users is to run the pipeline to understand the methodology and reproduce the results.
+
 ## The Workflow & Core Components
 
 The platform is organized into a series of modular scripts, designed to be run in a logical sequence. Each script represents a key stage in the pipeline.
