@@ -1,5 +1,7 @@
 # Markov Chain Forecasting & Analysis Platform for Financial Markets
 
+**Version:** 1.0.0 | **License:** MIT | **Author:** [Eng.Alhassan Ali Mubarak Bahbah]
+
 A comprehensive, end-to-end platform for acquiring data, cleaning, backtesting, generating, and analyzing forecasts for Forex and commodity markets using Markov Chains and a Random Forest confidence validator.
 
 ---
