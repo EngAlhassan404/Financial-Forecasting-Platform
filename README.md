@@ -1,6 +1,8 @@
 # Markov Chain Forecasting & Analysis Platform for Financial Markets
 
-**Version:** 1.0.0 | **License:** MIT | **Author:** [Eng.Alhassan Ali Mubarak Bahbah]
+![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Author](https://img.shields.io/badge/Author-Eng.%20Alhassan%20Ali%20Mubarak%20Bahbah-purple.svg)
 
 A comprehensive, end-to-end platform for acquiring data, cleaning, backtesting, generating, and analyzing forecasts for Forex and commodity markets using Markov Chains and a Random Forest confidence validator.
 
@@ -77,3 +79,4 @@ The platform is organized into a series of modular scripts, designed to be run i
 ## License
 
 This project is open-source and available under the MIT License.
+
