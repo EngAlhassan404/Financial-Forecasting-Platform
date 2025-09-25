@@ -47,6 +47,21 @@ The platform is organized into a series of modular scripts, designed to be run i
 * **Advanced Performance Analytics:** Generates detailed reports including directional accuracy, day-of-week performance, and intraday streak analysis.
 * **Dynamic & Flexible:** Most tools are configuration-driven, allowing for easy experimentation and analysis of different assets and timeframes.
 
+---
+### Development Methodology & Tools
+
+This platform was developed using an **AI-Assisted Development** approach, with the Gemini Pro model acting as a collaborator in the generation of Python code and the structuring of the data science workflow. My role was that of a Lead Data Scientist and Systems Architect, responsible for designing the end-to-end pipeline and validating its components.
+
+My contributions were focused on the following high-level tasks:
+
+* **Concept and Requirements Definition:** Defining the requirements for an integrated data science platform to explore the application of Markov Chains in financial forecasting. This included designing the novel two-layer system that combines a primary Markov model with a secondary Random Forest confidence validator.
+* **Architectural Design:** Structuring the project as a **Sequential Pipeline** composed of eight distinct Python scripts. Each script was designed to represent a key stage in the data science lifecycle, from data acquisition and cleaning to model optimization, forecast generation, and comprehensive performance analysis.
+* **Prompt Engineering:** Crafting detailed prompts for the AI to build each script in the pipeline, with a specific focus on the correct implementation of statistical algorithms (Markov Chains), machine learning models (Random Forest), and the development of robust modules for model optimization and performance reporting.
+* **Review, Testing, and Validation:** Implementing systematic backtesting through dedicated optimizer scripts (`Markov_Order_Optimizer`, `Confidence_Validator_Optimizer`) to find the best-performing model parameters. The integrity of the entire pipeline was validated by running it to generate and analyze historical forecast logs.
+* **Full Documentation:** Writing clear documentation in the `README.md` that explains the research hypothesis, the two-layer forecasting system, the function of each of the eight scripts in the pipeline, and provides complete instructions for setup and execution.
+
+This project serves as a comprehensive example of how AI can be guided to build a multi-stage, analytical platform, bridging the gap from raw data to actionable, model-driven insights.  
+
 ## How to Use
 
 1.  **Clone the repository:**
@@ -79,4 +94,5 @@ The platform is organized into a series of modular scripts, designed to be run i
 ## License
 
 This project is open-source and available under the MIT License.
+
 
